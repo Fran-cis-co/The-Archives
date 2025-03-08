@@ -1,3 +1,7 @@
+import { dungeons } from "../../data/Dungeons.js";
+import { raids } from "../../data/Raids";
+import { resources } from "../../data/OtherResources";
+
 const Header = () => {
   return (
     <>
@@ -19,17 +23,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
-              <li className="nav-item">
-                {/* <a className="nav-link active" aria-current="page" href="#"> */}
-                <a className="nav-link" aria-current="page" href="#">
-                  Main Page
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
+              {/* <a className="nav-link active" aria-current="page" href="#"> */}
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -41,21 +35,59 @@ const Header = () => {
                   Dungeons
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
+                  {dungeons.map((dungeon, index) => {
+                    return (
+                      <li key={index}>
+                        <a className="dropdown-item" href="#">
+                          {dungeon.name}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Raids
+                </a>
+                <ul className="dropdown-menu">
+                  {raids.map((raids, index) => {
+                    return (
+                      <li key={index}>
+                        <a className="dropdown-item" href="#">
+                          {raids.name}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Other Useful Resources
+                </a>
+                <ul className="dropdown-menu">
+                  {resources.map((resources, index) => {
+                    return (
+                      <li key={index}>
+                        <a className="dropdown-item" href="#">
+                          {resources.name}
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
               </li>
             </ul>
