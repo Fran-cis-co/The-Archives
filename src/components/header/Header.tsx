@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { dungeons } from "../../data/Dungeons.js";
 import { raids } from "../../data/Raids";
 import { resources } from "../../data/OtherResources";
@@ -7,8 +8,10 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Destiny Resources
+          <a className="navbar-brand">
+            <Link className="link" to="/">
+              Destiny Resources
+            </Link>
           </a>
           <button
             className="navbar-toggler"
@@ -69,8 +72,10 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Useful Resources
+                <a className="nav-link">
+                  <Link className="link" to="/UsefulResources">
+                    Useful Resources
+                  </Link>
                 </a>
               </li>
             </ul>
