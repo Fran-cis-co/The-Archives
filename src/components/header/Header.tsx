@@ -68,27 +68,10 @@ const Header = () => {
                   })}
                 </ul>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Other Useful Resources
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Useful Resources
                 </a>
-                <ul className="dropdown-menu">
-                  {resources.map((resources, index) => {
-                    return (
-                      <li key={index}>
-                        <a className="dropdown-item" href="#">
-                          {resources.name}
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
               </li>
             </ul>
           </div>

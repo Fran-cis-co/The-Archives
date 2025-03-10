@@ -6,6 +6,8 @@ I may update this project in the future when they add more dungeons or raids. Fo
 
 Any resources I link will be given credit to the posters I acquired it from. If any of the given credit is incorrect, please feel free to contact me letting me know that way I can update it.
 
+I'm sure there are other websites that are similar to this one that I am creating. However, I would like to get the practice in on creating a React project along with just being motivated to work on something.
+
 # Disclaimer
 
 I do not own any part of Destiny 2 or the IP of Destiny. All the rights go to the developer Bungie. This is merely a fan project and I do not make any income from this.
