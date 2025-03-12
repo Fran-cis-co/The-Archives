@@ -7,7 +7,7 @@ import {
   Route,
 } from "react-router";
 
-import HomePage from "./components/HomePage";
+import HomePage from "./components/homepage/HomePage";
 import UsefulResources from "./components/otherResources/UsefulResources";
 import NotFoundPage from "./components/NotFoundPage";
 

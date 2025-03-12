@@ -1,31 +1,11 @@
+// Homepage card component file to have it be more modular and cleaner code for each file
 import React from "react";
-
 // Import data which will be used as a provided hyperlink
-import { homepageListing } from "../data/HomePageListing";
-// Import text for the homepage to have more clean code
-import { intro, disclaimer, intro2 } from "../data/HomePageText";
+import { homepageListing } from "../../../data/HomePageListing";
 
-/*
-  TO-DO:
-    - Seperate homepage into smaller components
-    - Work on Dungeon homepage
-*/
-
-const HomePage = () => {
+const HomePageCards = () => {
   return (
-    // Use Grid style layout for easy design
-    <div className="container text-center p-2">
-      <div className="row p-2">
-        <div className="col">
-          <h1>Welcome to Destiny Resources!</h1>
-          <p>{intro}</p>
-        </div>
-      </div>
-      <div className="row p-2">
-        <div className="col">
-          <p>{intro2}</p>
-        </div>
-      </div>
+    <>
       <div className="row p-2">
         {homepageListing.map((item, index) => {
           return (
@@ -49,14 +29,8 @@ const HomePage = () => {
           );
         })}
       </div>
-      <div className="row p-2">
-        <div className="col">
-          <h2>DISCLAIMER</h2>
-          <p>{disclaimer}</p>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 
-export default HomePage;
+export default HomePageCards;
