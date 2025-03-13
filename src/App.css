@@ -1,15 +1,21 @@
 .app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
 }
 
-.main{
-    flex-grow: 1;
+.colors {
+  background-color: #0a0a0a;
+  color: #f6f6f6;
+}
+
+.foreground-color {
+  background-color: #b1bcc4;
+  color: black;
 }
 
 .link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }

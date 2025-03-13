@@ -9,36 +9,21 @@ import {
 
 import HomePage from "./components/homepage/HomePage";
 import UsefulResources from "./components/otherResources/UsefulResources";
-import NotFoundPage from "./components/NotFoundPage";
-
-// React router to route all the pages for a seamless experience
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/UsefulResources",
-    element: <UsefulResources />,
-  },
-]);
+// import NotFoundPage from "./components/NotFoundPage";
+import ContactPage from "./components/contactPage/ContactPage";
 
 import "./App.css";
-/*
-  TO-DO: 
-*/
 
 function App() {
   return (
-    <div className="app">
+    <div className="app colors">
       <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/UsefulResources" element={<UsefulResources />} />
+          <Route path="/ContactPage" element={<ContactPage />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   );

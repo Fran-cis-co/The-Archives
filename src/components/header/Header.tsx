@@ -2,11 +2,12 @@ import { Link } from "react-router";
 import { dungeons } from "../../data/Dungeons.js";
 import { raids } from "../../data/Raids";
 import { resources } from "../../data/OtherResources";
+import "../../App.css";
 
 const Header = () => {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <div>
+      <nav className="navbar navbar-expand-lg foreground-color">
         <div className="container-fluid">
           <a className="navbar-brand">
             <Link className="link" to="/">
@@ -78,11 +79,18 @@ const Header = () => {
                   </Link>
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link">
+                  <Link className="link" to="/ContactPage">
+                    Contact Me
+                  </Link>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

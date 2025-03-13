@@ -12,7 +12,7 @@ import HomePageDisclaimer from "./components/HomePageDisclaimer";
 const HomePage = () => {
   return (
     // Use Grid style layout for easy design
-    <div className="container text-center p-2">
+    <div className="container p-2">
       <HomePageIntro />
       <HomePageCards />
       <HomePageDisclaimer />
