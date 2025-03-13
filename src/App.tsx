@@ -11,6 +11,7 @@ import HomePage from "./components/homepage/HomePage";
 import UsefulResources from "./components/otherResources/UsefulResources";
 // import NotFoundPage from "./components/NotFoundPage";
 import ContactPage from "./components/contactPage/ContactPage";
+import DungeonHomePage from "./components/dungeons/DungeonHomePage";
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/UsefulResources" element={<UsefulResources />} />
           <Route path="/ContactPage" element={<ContactPage />} />
+          <Route path="/DungeonHomePage" element={<DungeonHomePage />} />
         </Routes>
       </BrowserRouter>
     </div>
