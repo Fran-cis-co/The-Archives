@@ -1,4 +1,4 @@
-import ShatteredThrone from "../components/dungeons/components/dungeonPages/ShatteredThrone";
+import ShatteredThrone from "../components/dungeons/components/dungeonPages/shatteredThrone/ShatteredThrone";
 import GhostsOfTheDeep from "../components/dungeons/components/dungeonPages/GhostsOfTheDeep";
 import GraspOfAvarice from "../components/dungeons/components/dungeonPages/GraspOfAvarice";
 import PitOfHeresy from "../components/dungeons/components/dungeonPages/PitOfHeresy";

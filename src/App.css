@@ -19,3 +19,15 @@
   text-decoration: none;
   color: inherit;
 }
+
+.accordion-button {
+  transition: color 0.3s;
+}
+
+.accordion-button.collapsed {
+  background-color: #b1bcc4;
+}
+
+.accordion-body {
+  background-color: #879096;
+}
