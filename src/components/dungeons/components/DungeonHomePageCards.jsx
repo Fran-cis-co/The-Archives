@@ -11,9 +11,10 @@ const DungeonHomePageCards = () => {
   return (
     <>
       <div className="row text-center">
-        {dungeons.map((dungeon, i) => {
+        {dungeons.map((dungeon, id) => {
           return (
-            <div className="col-4 p-3" key={i}>
+            // Give each dungeon it's own unique ID which reflects the positon it's in within the js file
+            <div className="col-4 p-3" key={id}>
               <div className="card foreground-color">
                 <a href={dungeon.src}>
                   <img
@@ -26,8 +27,10 @@ const DungeonHomePageCards = () => {
                 </a>
                 <div className="card-body foreground-color">
                   <h5 className="card-title">{dungeon.name}</h5>
-                  {/* Users will be able to click on a button to go to the respective page of the dungeon with all the available info */}
-                  <Link to={"/DungeonHomePage/" + dungeon.link}>
+                  {/* When a user clicks on the link, they will go to the respective dungeon with its information
+                      Every dungeon goes to the same page, however it will display the dungeon's information based on the parameter passed here.
+                  */}
+                  <Link to={`/DungeonHomePage/${dungeon.name}`}>
                     <a href="#" className="btn btn-primary">
                       Go
                     </a>

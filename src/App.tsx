@@ -14,20 +14,8 @@ import UsefulResources from "./components/otherResources/UsefulResources";
 // import NotFoundPage from "./components/NotFoundPage";
 import ContactPage from "./components/contactPage/ContactPage";
 import DungeonHomePage from "./components/dungeons/DungeonHomePage";
-
-// Have all export components for the dungeon pages in a different js file for cleaner code and import here
-import {
-  ShatteredThrone,
-  SunderedDoctrine,
-  PitOfHeresy,
-  Prophecy,
-  GraspOfAvarice,
-  DualityDungeon,
-  SpireOfTheWatcher,
-  GhostsOfTheDeep,
-  WarlodsRuin,
-  VespersHost,
-} from "./data/DungeonPageExports";
+// Import component which will be a general one for all dungeons
+import DungeonPage from "./components/dungeons/components/dungeonPage/DungeonPage";
 
 import "./App.css";
 
@@ -41,46 +29,14 @@ function App() {
           <Route path="/UsefulResources" element={<UsefulResources />} />
           <Route path="/ContactPage" element={<ContactPage />} />
           <Route path="/DungeonHomePage" element={<DungeonHomePage />} />
-          {/* --- All dungeon routes --- */}
+          {/* All dungeons will route to the same page.
+              Depending on the id of the dungeon, it will display different information
+              based on the dungeon id.
+          */}
           <Route
-            path="/DungeonHomePage/Shattered_Throne"
-            element={<ShatteredThrone />}
+            path="/DungeonHomePage/:dungeonName"
+            element={<DungeonPage />}
           />
-          <Route
-            path="/DungeonHomePage/Sundered_Doctrine"
-            element={<SunderedDoctrine />}
-          />
-          <Route
-            path="/DungeonHomePage/Pit_of_Heresy"
-            element={<PitOfHeresy />}
-          />
-          <Route path="/DungeonHomePage/Prophecy" element={<Prophecy />} />
-          <Route
-            path="/DungeonHomePage/Grasp_of_Avarice"
-            element={<GraspOfAvarice />}
-          />
-          <Route
-            path="/DungeonHomePage/Duality_dungeon"
-            element={<DualityDungeon />}
-          />
-          <Route
-            path="/DungeonHomePage/Spire_of_the_Watcher"
-            element={<SpireOfTheWatcher />}
-          />
-          <Route
-            path="/DungeonHomePage/Ghosts_of_the_Deep"
-            element={<GhostsOfTheDeep />}
-          />
-          <Route
-            path="/DungeonHomePage/Warlords_Ruin"
-            element={<WarlodsRuin />}
-          />
-          <Route
-            path="/DungeonHomePage/Vespers_Host"
-            element={<VespersHost />}
-          />
-
-          {/* --- All raid routes --- */}
         </Routes>
       </BrowserRouter>
     </div>

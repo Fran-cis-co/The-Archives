@@ -5,7 +5,13 @@ export const dungeons = [
     img: "/assets/images/dungeons/dungeonPagePreviews/ShatteredThrone.jpg",
     src: "https://www.destinypedia.com/The_Shattered_Throne",
     link: "Shattered_Throne",
-    tutorial: "https://youtu.be/xWDOnB6HLWI?si=1EV3QVJmMGIwyjzZ",
+    tutorial: [
+      {
+        link: "https://www.youtube.com/embed/xWDOnB6HLWI?si=XA7w3O5oDubNx1Cs",
+        channelLink: "https://www.youtube.com/@DattoDoesDestiny",
+        name: "Datto",
+      },
+    ],
     encounterMaps: [
       {
         name: "First Encounter (Erebus Labyrinth)",
@@ -28,8 +34,14 @@ export const dungeons = [
           "/assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneFourthEncounter.jpg",
       },
     ],
-    encounterMapCredit:
-      "https://www.reddit.com/r/raidsecrets/comments/1d7j66g/the_shattered_throne_dungeon_maps_guide/",
+    encounterMapCredit: [
+      {
+        name: "Pyranie & Tnerouken",
+        source:
+          "https://www.reddit.com/r/raidsecrets/comments/1d7j66g/the_shattered_throne_dungeon_maps_guide/",
+        maps: "all of the encounter maps.",
+      },
+    ],
   },
   {
     name: "Pit of Heresy",
