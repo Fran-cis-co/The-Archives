@@ -15,7 +15,7 @@ const DungeonVideoTutorialSection = ({ videoTut }) => {
               Thank you <a href={tut.channelLink}>{tut.name}</a> for the guide
             </p>
             <iframe
-              width="1070"
+              width="1400"
               height="600"
               src={tut.link}
               title="YouTube video player"

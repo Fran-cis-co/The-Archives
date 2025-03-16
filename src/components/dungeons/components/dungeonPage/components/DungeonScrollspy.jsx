@@ -1,12 +1,13 @@
 import React from "react";
 
-const Scrollspy = ({ shatteredThrone }) => {
+const DungeonScrollspy = ({ dungeon }) => {
+  console.log(dungeon);
   return (
     <>
       <div className="col-2">
         <nav
           id="navbar-example3"
-          className="h-100 flex-column align-items-stretch pe-4 border-end"
+          className="h-100 flex-column align-items-stretch "
           data-bs-spy="scroll"
           sticky="top"
         >
@@ -23,7 +24,7 @@ const Scrollspy = ({ shatteredThrone }) => {
               Encounter Maps
             </a>
             <nav className="nav nav-pills flex-column">
-              {shatteredThrone.map((dun, i) => {
+              {dungeon.encounterMaps.map((dun, i) => {
                 return (
                   <a className="nav-link ms-3 my-1" href={"#" + dun.name}>
                     {dun.name}
@@ -44,4 +45,4 @@ const Scrollspy = ({ shatteredThrone }) => {
   );
 };
 
-export default Scrollspy;
+export default DungeonScrollspy;
