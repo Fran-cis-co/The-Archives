@@ -2,17 +2,13 @@
 import React from "react";
 import { Link } from "react-router";
 import "../../../App.css";
-// Import data which will be used as a provided hyperlink
-import { homepageListing } from "../../../data/HomePageListing";
-import DungeonHomePage from "../../dungeons/DungeonHomePage";
 
-const HomePageCards = () => {
+const HomePageCards = ({ listing }) => {
   return (
     <>
       <div className="row p-2">
-        <h2 className="p-2">Resources: </h2>
         {/* Fill each card for the homepage to display the necessary information through the use of mapping */}
-        {homepageListing.map((item, index) => {
+        {listing.map((item, index) => {
           return (
             <div className="col" key={index}>
               <div className="card" style={{ width: "18rem" }}>
@@ -25,11 +21,21 @@ const HomePageCards = () => {
                   <p className="card-text">
                     {item.desc} (click on image for source of image)
                   </p>
-                  <Link to={"/" + item.link}>
-                    <a href="#" className="btn btn-primary">
-                      Go
-                    </a>
-                  </Link>
+                  {/* Send user to the same page except show different items based on the item clicked (raids or dungeons) */}
+                  {/* If it's the other resources click, then it goes to a different page */}
+                  {item.name === "Other Resources" ? (
+                    <Link to={`/Home/${item.name}`}>
+                      <a href="#" className="btn btn-primary">
+                        Go
+                      </a>
+                    </Link>
+                  ) : (
+                    <Link to={`/DungeonAndRaids/${item.name}`}>
+                      <a href="#" className="btn btn-primary">
+                        Go
+                      </a>
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>

@@ -13,9 +13,10 @@ import HomePage from "./components/homepage/HomePage";
 import UsefulResources from "./components/otherResources/UsefulResources";
 // import NotFoundPage from "./components/NotFoundPage";
 import ContactPage from "./components/contactPage/ContactPage";
-import DungeonHomePage from "./components/dungeons/DungeonHomePage";
+import DungeonAndRaidHomePage from "./components/dungeonsAndRaids/DungeonAndRaidHomePage";
+import DungeonHomePage from "./components/dungeonsAndRaids/DungeonHomePage";
 // Import component which will be a general one for all dungeons
-import DungeonPage from "./components/dungeons/components/dungeonPage/DungeonPage";
+import DungeonPage from "./components/dungeonsAndRaids/components/dungeonPage/DungeonPage";
 
 import "./App.css";
 
@@ -26,7 +27,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/UsefulResources" element={<UsefulResources />} />
+          <Route
+            path="/DungeonAndRaids/:activityName"
+            element={<DungeonAndRaidHomePage />}
+          />
+          <Route path="/Home/UsefulResources" element={<UsefulResources />} />
           <Route path="/ContactPage" element={<ContactPage />} />
           <Route path="/DungeonHomePage" element={<DungeonHomePage />} />
           {/* All dungeons will route to the same page.

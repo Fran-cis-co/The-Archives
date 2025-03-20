@@ -3,6 +3,8 @@ import React from "react";
 import HomePageCards from "./components/HomePageCards";
 import HomePageIntro from "./components/HomePageIntro";
 import HomePageDisclaimer from "./components/HomePageDisclaimer";
+// Import data which will be used as a provided hyperlink
+import { homepageListing } from "../../data/HomePageListing";
 
 /*
   TO-DO:
@@ -14,7 +16,7 @@ const HomePage = () => {
     // Use Grid style layout for easy design
     <div className="container p-2">
       <HomePageIntro />
-      <HomePageCards />
+      <HomePageCards listing={homepageListing} />
       <HomePageDisclaimer />
     </div>
   );
