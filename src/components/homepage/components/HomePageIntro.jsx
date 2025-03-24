@@ -7,7 +7,7 @@ const HomePageIntro = () => {
     <>
       <div className="row p-2">
         <div className="col">
-          <h1>Welcome to Destiny Resources!</h1>
+          <h1>Welcome to The Archives!</h1>
           <p>{intro}</p>
         </div>
       </div>

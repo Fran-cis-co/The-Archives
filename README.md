@@ -1,4 +1,4 @@
-# Destiny Resources
+# The Archives
 
 This React project is just all the resources I use for reference when playing Destiny 2 all under one place. I figured I might as well share this if anyone wants to see the source code or use it as well. Some of these resources I use are items such as encounter images, red border instructions for raids, etc.
 
