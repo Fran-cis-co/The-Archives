@@ -11,7 +11,7 @@ const Header = () => {
         <div className="container-fluid">
           <a className="navbar-brand">
             <Link className="link" to="/">
-              Destiny Resources
+              The Archives
             </Link>
           </a>
           <button

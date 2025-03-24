@@ -1,11 +1,6 @@
 import React from "react";
 
-// TO-DO:
-// re-create the usestate for the accordion
-
-// Component which displays all the encounter maps along with the credit on who made the encounter maps
-
-const DungeonEncounterMaps = ({ maps, credit }) => {
+const ActivityEncounterMaps = ({ maps, credit }) => {
   return (
     <>
       {/* Introduction message */}
@@ -56,4 +51,4 @@ const DungeonEncounterMaps = ({ maps, credit }) => {
   );
 };
 
-export default DungeonEncounterMaps;
+export default ActivityEncounterMaps;

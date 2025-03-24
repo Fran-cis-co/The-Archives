@@ -7,16 +7,19 @@ import {
   Route,
 } from "react-router";
 
-import Router from "./components/Router";
+/* 
+  TO-DO:
+  Fill out info for the rest of the other dungeons
+
+*/
 
 import HomePage from "./components/homepage/HomePage";
 import UsefulResources from "./components/otherResources/UsefulResources";
-// import NotFoundPage from "./components/NotFoundPage";
 import ContactPage from "./components/contactPage/ContactPage";
-import DungeonAndRaidHomePage from "./components/dungeonsAndRaids/DungeonAndRaidHomePage";
-import DungeonHomePage from "./components/dungeonsAndRaids/DungeonHomePage";
-// Import component which will be a general one for all dungeons
-import DungeonPage from "./components/dungeonsAndRaids/components/dungeonPage/DungeonPage";
+// important compenent which will list all raids or dungeons dependong on what the user selected
+import ActivityHomePage from "./components/dungeonsAndRaids/ActivityHomePage";
+// import component which will display information of selected activity
+import ActivityPage from "./components/dungeonsAndRaids/components/activityPage/ActivityPage";
 
 import "./App.css";
 
@@ -27,20 +30,20 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          {/* Route which will lead users to a single page which will display something different depending on what they chose */}
           <Route
             path="/DungeonAndRaids/:activityName"
-            element={<DungeonAndRaidHomePage />}
+            element={<ActivityHomePage />}
           />
-          <Route path="/Home/UsefulResources" element={<UsefulResources />} />
+          <Route path="/UsefulResources" element={<UsefulResources />} />
           <Route path="/ContactPage" element={<ContactPage />} />
-          <Route path="/DungeonHomePage" element={<DungeonHomePage />} />
           {/* All dungeons will route to the same page.
               Depending on the id of the dungeon, it will display different information
               based on the dungeon id.
           */}
           <Route
-            path="/DungeonHomePage/:dungeonName"
-            element={<DungeonPage />}
+            path="/DungeonAndRaids/:activityType/:activityName"
+            element={<ActivityPage />}
           />
         </Routes>
       </BrowserRouter>

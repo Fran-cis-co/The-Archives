@@ -24,7 +24,7 @@ const HomePageCards = ({ listing }) => {
                   {/* Send user to the same page except show different items based on the item clicked (raids or dungeons) */}
                   {/* If it's the other resources click, then it goes to a different page */}
                   {item.name === "Other Resources" ? (
-                    <Link to={`/Home/${item.name}`}>
+                    <Link to={`/${item.name}`}>
                       <a href="#" className="btn btn-primary">
                         Go
                       </a>

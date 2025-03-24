@@ -1,9 +1,6 @@
 import React from "react";
 
-// Component which contains the content which will display the tutorial video
-// proper credit is given based on the Youtuber's name along with their embeded video
-
-const DungeonVideoTutorialSection = ({ videoTut }) => {
+const ActivityPageVideoTutorialSection = ({ videoTut }) => {
   return (
     <>
       {/* Display every video within the database along with credit of the Youtuber's name */}
@@ -31,4 +28,4 @@ const DungeonVideoTutorialSection = ({ videoTut }) => {
   );
 };
 
-export default DungeonVideoTutorialSection;
+export default ActivityPageVideoTutorialSection;

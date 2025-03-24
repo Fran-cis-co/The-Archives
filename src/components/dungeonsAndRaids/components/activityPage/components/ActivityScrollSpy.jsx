@@ -1,7 +1,6 @@
 import React from "react";
 
-const DungeonScrollspy = ({ dungeon }) => {
-  console.log(dungeon);
+const ActivityScrollSpy = ({ activity }) => {
   return (
     <>
       <div className="col-2">
@@ -24,19 +23,19 @@ const DungeonScrollspy = ({ dungeon }) => {
               Encounter Maps
             </a>
             <nav className="nav nav-pills flex-column">
-              {dungeon.encounterMaps.map((dun, i) => {
+              {activity.encounterMaps.map((activ, i) => {
                 return (
-                  <a className="nav-link ms-3 my-1" href={"#" + dun.name}>
-                    {dun.name}
+                  <a className="nav-link ms-3 my-1" href={"#" + activ.name}>
+                    {activ.name}
                   </a>
                 );
               })}
               {/* <a className="nav-link ms-3 my-1" href="#item-3-1">
-                Item 3-1
-              </a>
-              <a className="nav-link ms-3 my-1" href="#item-3-2">
-                Item 3-2
-              </a> */}
+          Item 3-1
+        </a>
+        <a className="nav-link ms-3 my-1" href="#item-3-2">
+          Item 3-2
+        </a> */}
             </nav>
           </nav>
         </nav>
@@ -45,4 +44,4 @@ const DungeonScrollspy = ({ dungeon }) => {
   );
 };
 
-export default DungeonScrollspy;
+export default ActivityScrollSpy;
