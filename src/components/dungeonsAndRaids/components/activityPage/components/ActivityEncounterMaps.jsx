@@ -5,10 +5,10 @@ const ActivityEncounterMaps = ({ maps, credit }) => {
     <>
       {/* Introduction message */}
       <div id="encounterMaps">
-        <h1>Encounter Maps</h1>
+        <h1>Maps</h1>
         <p>
-          Below are all the maps for each encounter. Just click on a accordian
-          to see each encounter map.
+          Below are all the maps for encounters or other useful maps depending
+          on the activity.
         </p>
       </div>
 
@@ -22,7 +22,6 @@ const ActivityEncounterMaps = ({ maps, credit }) => {
                 className="center pb-3"
                 src={encounter.encounterMap}
                 width={1400}
-                height={800}
               />
               <br />
               {/* Include a button which allows user to go all the way back to the top of the page */}

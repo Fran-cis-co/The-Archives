@@ -20,7 +20,7 @@ const ActivityScrollSpy = ({ activity }) => {
               </a>
             </nav>
             <a className="nav-link" href="#encounterMaps">
-              Encounter Maps
+              Maps
             </a>
             <nav className="nav nav-pills flex-column">
               {activity.encounterMaps.map((activ, i) => {

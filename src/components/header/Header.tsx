@@ -42,8 +42,13 @@ const Header = () => {
                   {dungeons.map((dungeon, index) => {
                     return (
                       <li key={index}>
-                        <a className="dropdown-item" href="#">
-                          {dungeon.name}
+                        <a className="dropdown-item">
+                          <Link
+                            className="link"
+                            to={`/DungeonAndRaids/Dungeons/${dungeon.name}`}
+                          >
+                            {dungeon.name}
+                          </Link>
                         </a>
                       </li>
                     );
@@ -64,8 +69,13 @@ const Header = () => {
                   {raids.map((raids, index) => {
                     return (
                       <li key={index}>
-                        <a className="dropdown-item" href="#">
-                          {raids.name}
+                        <a className="dropdown-item">
+                          <Link
+                            className="link"
+                            to={`/DungeonAndRaids/Raids/${raids.name}`}
+                          >
+                            {raids.name}
+                          </Link>
                         </a>
                       </li>
                     );

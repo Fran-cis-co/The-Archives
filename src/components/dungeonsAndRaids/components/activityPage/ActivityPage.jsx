@@ -47,10 +47,14 @@ const ActivityPage = () => {
               <ActivityPageVideoTutorialSection videoTut={activity.tutorial} />
 
               {/* Encounter maps section */}
-              <ActivityEncounterMaps
-                maps={activity.encounterMaps}
-                credit={activity.encounterMapCredit}
-              />
+
+              {/* Show maps if the dungeon or map is complex where maps are needed */}
+              {activity.encounterMaps.length > 0 && (
+                <ActivityEncounterMaps
+                  maps={activity.encounterMaps}
+                  credit={activity.encounterMapCredit}
+                />
+              )}
             </div>
           </div>
         </div>
