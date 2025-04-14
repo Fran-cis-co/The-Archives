@@ -7,6 +7,8 @@ import { raids } from "../../../../data/Raids";
 import ActivityPageIntroSection from "./components/ActivityPageIntroSection";
 import ActivityPageVideoTutorialSection from "./components/ActivityPageVideoTutorialSection";
 import ActivityEncounterMaps from "./components/ActivityEncounterMaps";
+import ActivityPageSecretChestsVideo from "./components/ActivityPageSecretChestsVideo";
+import ActivityRedBorderTutorial from "./components/ActivityRedBorderTutorial";
 import ActivityScrollSpy from "./components/ActivityScrollSpy";
 
 const ActivityPage = () => {
@@ -32,7 +34,7 @@ const ActivityPage = () => {
       {/* Display information of activity through different components for cleaner code */}
       <div className="pt-3">
         <div className="row">
-          <div className="col-2 p-5">
+          <div className="col-2">
             <ActivityScrollSpy activity={activity} />
           </div>
           <div className="col-9">
@@ -54,6 +56,16 @@ const ActivityPage = () => {
                   maps={activity.encounterMaps}
                   credit={activity.encounterMapCredit}
                 />
+              )}
+
+              {/* Checks if the activity has secret chests and if so, display the videos */}
+              {activity.secretChests && (
+                <ActivityPageSecretChestsVideo video={activity.secretChests} />
+              )}
+
+              {/* If the activity has a red border chest, then display the video or image of how to obtain it */}
+              {activity.redBorder && (
+                <ActivityRedBorderTutorial video={activity.redBorder} />
               )}
             </div>
           </div>

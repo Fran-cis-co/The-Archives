@@ -30,6 +30,18 @@ const ActivityScrollSpy = ({ activity }) => {
                   </a>
                 );
               })}
+
+              {activity.secretChests && (
+                <a className="nav-link" href="#secretchests">
+                  Secret Chests
+                </a>
+              )}
+
+              {activity.redBorder && (
+                <a className="nav-link" href="#redborder">
+                  Red Border Chest
+                </a>
+              )}
               {/* <a className="nav-link ms-3 my-1" href="#item-3-1">
           Item 3-1
         </a>
