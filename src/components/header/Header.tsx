@@ -68,16 +68,14 @@ const Header = () => {
                 <ul className="dropdown-menu">
                   {raids.map((raids, index) => {
                     return (
-                      <li key={index}>
-                        <a className="dropdown-item">
-                          <Link
-                            className="link"
-                            to={`/DungeonAndRaids/Raids/${raids.name}`}
-                          >
-                            {raids.name}
-                          </Link>
-                        </a>
-                      </li>
+                      <Link
+                        className="link"
+                        to={`/DungeonAndRaids/Raids/${raids.name}`}
+                      >
+                        <li key={index}>
+                          <a className="dropdown-item">{raids.name}</a>
+                        </li>
+                      </Link>
                     );
                   })}
                 </ul>

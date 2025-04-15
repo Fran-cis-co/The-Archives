@@ -27,7 +27,7 @@ const ActivityEncounterMaps = ({ maps, credit }) => {
               {/* Include a button which allows user to go all the way back to the top of the page */}
               <button type="button" className="btn btn-outline-primary">
                 <a href="#introduction" style={{ textDecoration: "none" }}>
-                  Back to the intro
+                  Top of page
                 </a>
               </button>
             </div>

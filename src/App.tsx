@@ -9,7 +9,9 @@ import {
 
 /* 
   TO-DO:
-  Fill out info for the rest of the other dungeons
+  Figure out a way to display red border info if it's a hawthorne quest
+  Make videos on how to obtain secret chests eventually
+  Get more encounter maps for deep stone crypt
 
 */
 

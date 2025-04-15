@@ -1,3 +1,8 @@
+/*
+  TO DO IN THIS FILE:
+    1. get secret chest locations for last wish
+*/
+
 export const raids = [
   {
     name: "Vault of Glass",
@@ -57,12 +62,6 @@ export const raids = [
         link: "https://www.youtube.com/embed/lt5ZRFl0GNc?si=82RsqFpILFHUlGdE",
         channelLink: "https://www.youtube.com/@Esoterickk",
         name: "Esoterickk",
-      },
-    ],
-    redBorder: [
-      {
-        chests:
-          "Obtain the raid quest from Hawthorne in the tower to obtain the guarnteed red border",
       },
     ],
   },
@@ -152,11 +151,6 @@ export const raids = [
           "/assets/images/raids/kingsfall/encounterMaps/KingsFallFirstEncounter.png",
       },
       {
-        name: "Totems (First Encounter)",
-        encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallFirstEncounter.png",
-      },
-      {
         name: "Warpriest (Second Encounter)",
         encounterMap:
           "/assets/images/raids/kingsfall/encounterMaps/KingsFallSecondEncounter.png",
@@ -226,45 +220,49 @@ export const raids = [
     link: "Last_Wish",
     tutorial: [
       {
-        link: "https://www.youtube.com/embed/M1WHC6tEwXQ?si=K_JVduDgTypbU029",
-        channelLink: "https://www.youtube.com/@cketch",
-        name: "Cketch",
+        link: "https://www.youtube.com/embed/zQLQHWoxxxM?si=xdrDK_MktIVz_RIU",
+        channelLink: "https://www.youtube.com/@iShieldMaiden",
+        name: "iShieldMaiden",
       },
     ],
     encounterMaps: [
       {
-        name: "Totems (First Encounter)",
+        name: "Kalli (First Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallFirstEncounter.png",
+          "/assets/images/raids/lastWish/encounterMaps/LastWishFirstEncounter.png",
       },
       {
-        name: "Totems (First Encounter)",
+        name: "Shuro Chi (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallFirstEncounter.png",
+          "/assets/images/raids/lastWish/encounterMaps/LastWishSecondEncounter.png",
       },
       {
-        name: "Warpriest (Second Encounter)",
+        name: "Morgeth (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallSecondEncounter.png",
+          "/assets/images/raids/lastWish/encounterMaps/LastWishThirdEncounter.png",
       },
       {
-        name: "Golgoroth's Cellar",
-        encounterMap: "/assets/images/raids/kingsfall/KingsFallCellar.png",
+        name: "The Vault (Fourth Encounter)",
+        encounterMap:
+          "/assets/images/raids/lastWish/encounterMaps/LastWishFourthEncounter.png",
       },
       {
-        name: "Golgoroth (Third Encounter)",
+        name: "Riven (Fifth Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallThirdEncounter.jpg",
+          "/assets/images/raids/lastWish/encounterMaps/LastWishFifthEncounter.png",
       },
       {
-        name: "Daughter's (Fourth Encounter)",
-        encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallFourthEncounter.png",
+        name: "Riven Eye Chart",
+        encounterMap: "/assets/images/raids/lastWish/LastWishRivenEyeChart.png",
       },
       {
-        name: "Red Border Chest Visual Guide",
+        name: "Riven Symbol Map",
         encounterMap:
-          "/assets/images/raids/kingsfall/KingsFallRedBorderChest.png",
+          "/assets/images/raids/lastWish/LastWishRivenSymbolMap.png",
+      },
+      {
+        name: "Queen's Walk",
+        encounterMap: "/assets/images/raids/lastWish/LastWishQueensWalk.png",
       },
     ],
     encounterMapCredit: [
@@ -275,25 +273,123 @@ export const raids = [
         maps: "the encounter cheat sheets",
       },
     ],
-    secretChests: [
+    // Coming soon maybe
+    // secretChests: [],
+    // redBorder: [],
+  },
+  {
+    name: "Garden of Salvation",
+    desc: "The Garden calls out to you.",
+    img: "/assets/images/raids/raidPreviews/GardenOfSalvation.jpg",
+    src: "https://www.destinypedia.com/Garden_of_Salvation",
+    link: "Garden_Of_Salvation",
+    tutorial: [
       {
-        link: "https://www.youtube.com/embed/ei3WR1bsMDE?si=9aMJWrZ6GtsNtPVU",
-        channelLink: "https://www.youtube.com/@SneakyBeaver",
-        name: "SneakyBeaver",
-        chests: "for both secret chest locations",
+        title: "Raid Guide",
+        link: "https://www.youtube.com/embed/n1Nx3wt5I8k?si=4LPC7T-lonWzKwVN",
+        channelLink: "https://www.youtube.com/@iShieldMaiden",
+        name: "iShieldMaiden",
+      },
+      {
+        title: "Divinity Quest Guide",
+        link: "https://www.youtube.com/embed/2IQ6M43gEus?si=CqBpkVTbUoxF93r9",
+        channelLink: "https://www.youtube.com/@DattoDoesDestiny",
+        name: "Datto",
+      },
+      {
+        title: "Secret Chests",
+        link: "https://www.youtube.com/embed/Xfd0GU4qhS4?si=BYEtTjJ6E83uji5-",
+        channelLink: "https://www.youtube.com/@iron-jaygaming4060",
+        name: "Iron Jay",
       },
     ],
-    redBorder: [
+    encounterMaps: [
       {
-        link: "https://www.youtube.com/embed/vXO3jzo3yJ4?si=gieZ4zjUIqPvfCtH",
-        channelLink: "https://www.youtube.com/@gmeinersYT",
-        name: "gmeiners",
-        chests: "for the red border chest video tutorial",
+        name: "Evade the Consecrated Mind (First Encounter)",
+        encounterMap:
+          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationFirstEncounter.png",
+      },
+      {
+        name: "Summon the Consecrated Mind (Second Encounter)",
+        encounterMap:
+          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationSecondEncounter.png",
+      },
+      {
+        name: "Consecrated Mind (Third Encounter)",
+        encounterMap:
+          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationThirdEncounter.png",
+      },
+      {
+        name: "Consecrated Mind Eye Chart",
+        encounterMap:
+          "/assets/images/raids/gardenOfSalvation/GardenOfSalvationEyeChart.png",
+      },
+      {
+        name: "Sanctified Mind (Fourth Encounter)",
+        encounterMap:
+          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationFourthEncounter.png",
+      },
+    ],
+    encounterMapCredit: [
+      {
+        name: "u/TheRedDelilah",
+        source:
+          "https://www.reddit.com/r/destiny2/comments/n24z8y/garden_maps_input_critique_requested/",
+        maps: "the encounter maps and consecrated mind eye chart",
       },
     ],
   },
-  { name: "Garden of Salvation" },
-  { name: "Deep Stone Crypt" },
+  {
+    name: "Deep Stone Crypt",
+    desc: "The chains of legacy must be broken.",
+    img: "/assets/images/raids/raidPreviews/DeepStoneCrypt.jpg",
+    src: "https://www.destinypedia.com/Deep_Stone_Crypt_(raid)",
+    link: "Deep_Stone_Crypt",
+    tutorial: [
+      {
+        title: "Raid Guide",
+        link: "https://www.youtube.com/embed/h5HA6E9zH90?si=GHfJ6AyTKRn5aTPE",
+        channelLink: "https://www.youtube.com/@LlamaD2",
+        name: "Llama",
+      },
+      {
+        title: "Secret Chests",
+        link: "https://www.youtube.com/embed/1-LM0vvGVOI?si=N8QvuX8z0pc8AtB7",
+        channelLink: "https://www.youtube.com/@SlyNation",
+        name: "Sly Nation",
+      },
+    ],
+    encounterMaps: [
+      {
+        name: "Crypt Security (First Encounter)",
+        encounterMap:
+          "/assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptFirstEncounter.png",
+      },
+      // {
+      //   name: "Atraks-1 (Second Encounter)",
+      //   encounterMap:
+      //     "/assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptSecondEncounter.png",
+      // },
+      {
+        name: "Rapture (Third Encounter)",
+        encounterMap:
+          "/assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptThirdEncounter.png",
+      },
+      // {
+      //   name: "Taniks (Fourth Encounter)",
+      //   encounterMap:
+      //     "/assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptFourthEncounter.png",
+      // },
+    ],
+    encounterMapCredit: [
+      {
+        name: "u/vmworks",
+        source:
+          "https://www.reddit.com/r/raidsecrets/comments/k1eafu/deep_stone_crypt_maps_security_rapture_taniks/",
+        maps: "encounters 1 & 3",
+      },
+    ],
+  },
   { name: "Vow of the Disciple" },
   { name: "Root of Nightmares" },
   { name: "Salvation's Edge" },

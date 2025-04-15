@@ -37,7 +37,7 @@ const ActivityPage = () => {
           <div className="col-2">
             <ActivityScrollSpy activity={activity} />
           </div>
-          <div className="col-9">
+          <div className="col-8">
             <div>
               {/* Intro section */}
               <ActivityPageIntroSection
@@ -46,7 +46,16 @@ const ActivityPage = () => {
               />
 
               {/* Video tutorial section */}
-              <ActivityPageVideoTutorialSection videoTut={activity.tutorial} />
+              <div id="youtube">
+                <h2>Youtube Guides</h2>
+                <p>
+                  Youtube videos on how to do the activity along with any exotic
+                  related quests
+                </p>
+                <ActivityPageVideoTutorialSection
+                  videoTut={activity.tutorial}
+                />
+              </div>
 
               {/* Encounter maps section */}
 

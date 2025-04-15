@@ -3,7 +3,7 @@ import React from "react";
 const ActivityScrollSpy = ({ activity }) => {
   return (
     <>
-      <div className="col-2">
+      <div className="col-3">
         <nav
           id="navbar-example3"
           className="h-100 flex-column align-items-stretch "
@@ -12,12 +12,17 @@ const ActivityScrollSpy = ({ activity }) => {
         >
           <nav className="nav nav-pills flex-column">
             <a className="nav-link" href="#introduction">
-              Introducton
+              Youtube Guides
             </a>
             <nav className="nav nav-pills flex-column">
-              <a className="nav-link ms-3 my-1" href="#youtube">
-                Youtube Guide
-              </a>
+              {/* Have sections for each youtube video to have easy navigation */}
+              {activity.tutorial.map((tut, i) => {
+                return (
+                  <a className="nav-link ms-3 my-1" href={"#" + tut.title}>
+                    {tut.title}
+                  </a>
+                );
+              })}
             </nav>
             <a className="nav-link" href="#encounterMaps">
               Maps
