@@ -10,6 +10,11 @@ const ActivityEncounterMaps = ({ maps, credit }) => {
           Below are all the maps for encounters or other useful maps depending
           on the activity.
         </p>
+        <p>
+          For any maps that are too big for your monitor resolution, please zoom
+          out with the in-browser zoom feature. The image sizes are a work in
+          progress
+        </p>
       </div>
 
       {/* Display all the encounter maps through the use of mapping */}

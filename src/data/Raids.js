@@ -390,7 +390,190 @@ export const raids = [
       },
     ],
   },
-  { name: "Vow of the Disciple" },
-  { name: "Root of Nightmares" },
-  { name: "Salvation's Edge" },
+  {
+    name: "Vow of the Disciple",
+    desc: "The disciple beckons.",
+    img: "/assets/images/raids/raidPreviews/VowOfTheDisciple.jpg",
+    src: "https://www.destinypedia.com/Vow_of_the_Disciple",
+    link: "Vow_Of_The_Disciple",
+    tutorial: [
+      {
+        title: "Raid Guide",
+        link: "https://www.youtube.com/embed/SA5GHZQJ6cM?si=89ZlP73AwNVqpaSr",
+        channelLink: "https://www.youtube.com/@LlamaD2",
+        name: "Llama",
+      },
+      {
+        title: "Red Border Chest",
+        link: "https://www.youtube.com/embed/UvSUk8sClso?si=2QXgU8UpXG5jQUT6",
+        channelLink: "https://www.youtube.com/@Dukeiscool",
+        name: "Dukeiscool",
+      },
+    ],
+    encounterMaps: [
+      {
+        name: "Symbols",
+        encounterMap:
+          "/assets/images/raids/vowOfTheDisciple/VowOfTheDiscipleSymbols.png",
+      },
+      {
+        name: "Red Border Visual Guide",
+        encounterMap:
+          "/assets/images/raids/vowOfTheDisciple/VowOfTheDiscipleRedBorder.jpg",
+      },
+      {
+        name: "Acquisition (First Encounter)",
+        encounterMap:
+          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleFirstEncounter.jpg",
+      },
+      {
+        name: "Caretaker (Second Encounter)",
+        encounterMap:
+          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleSecondEncounter.jpg",
+      },
+      {
+        name: "Exhibition (Third Encounter)",
+        encounterMap:
+          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleThirdEncounter.jpeg",
+      },
+      {
+        name: "Rhulk (Fourth Encounter)",
+        encounterMap:
+          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleFourthEncounter.png",
+      },
+    ],
+    encounterMapCredit: [
+      {
+        name: "Tenrouken",
+        source: "https://x.com/tenrouken/status/1637264574000009216",
+        maps: "encounter 1 & 2 maps",
+      },
+      {
+        name: "u/WiseButterScotch",
+        source:
+          "https://www.reddit.com/r/raidsecrets/comments/tc0jzs/map_vow_of_the_disciple_exhibition_3rd_encounter/",
+        maps: "encounter 3 map",
+      },
+      {
+        name: "u/Wolf_Antartic",
+        source:
+          "https://www.reddit.com/r/raidsecrets/comments/tb95dc/vow_of_the_disciple_final_encounter_map/",
+        maps: "encounter 4 map",
+      },
+      {
+        name: "u/itsnon",
+        source:
+          "https://www.reddit.com/r/raidsecrets/comments/t7gc5v/vow_of_the_disciple_labeled_symbol_guide/",
+        maps: "the vow symbols",
+      },
+      {
+        name: "u/melissamalicious",
+        source:
+          "https://www.reddit.com/r/destiny2/comments/tbyikh/vow_of_the_disciple_extra_loot_dropextra_chest/",
+        maps: "the red border chest visual guide",
+      },
+    ],
+  },
+  {
+    name: "Root of Nightmares",
+    desc: "A sinister threat has taken root.",
+    img: "/assets/images/raids/raidPreviews/RootOfNightmares.jpg",
+    src: "https://www.destinypedia.com/Root_of_Nightmares",
+    link: "Root_Of_Nightmares",
+    tutorial: [
+      {
+        title: "Raid Guide",
+        link: "https://www.youtube.com/embed/6oQ92cmSUc4?si=QmbA9FJqDfd-g5nW",
+        channelLink: "https://www.youtube.com/@DattoDoesDestiny",
+        name: "Datto",
+      },
+      {
+        title: "Red Border Chest",
+        link: "https://www.youtube.com/embed/cs4t1A5TMuw?si=tFZPViWj_sdyTm-Z",
+        channelLink: "https://www.youtube.com/@Skarrow9",
+        name: "Skarrow9",
+      },
+    ],
+    encounterMaps: [
+      {
+        name: "Cataclysm (First Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFirstEncounter.jpeg",
+      },
+      {
+        name: "Scission (Second Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresSecondEncounter.jpeg",
+      },
+      {
+        name: "Macrocosm (Third Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresThirdEncounter.jpeg",
+      },
+      {
+        name: "Nazarec (Fourth Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFourthEncounter.jpeg",
+      },
+    ],
+    encounterMapCredit: [
+      {
+        name: "u/pryanie",
+        source:
+          "https://www.reddit.com/r/DestinyTheGame/comments/11twndp/root_of_nightmares_high_quality_maps/",
+        maps: "the encounter maps",
+      },
+    ],
+  },
+  {
+    name: "Salvation's Edge",
+    desc: "Free the Light",
+    img: "/assets/images/raids/raidPreviews/SalvationsEdge.png",
+    src: "https://www.destinypedia.com/Salvation%27s_Edge",
+    link: "Salvations_Edge",
+    tutorial: [
+      {
+        title: "Raid Guide",
+        link: "https://www.youtube.com/embed/lYHHPoDRuHU?si=t12bygv3PBg1z21v",
+        channelLink: "https://www.youtube.com/@DattoDoesDestiny",
+        name: "Datto",
+      },
+      {
+        title: "Red Border Chest",
+        link: "https://www.youtube.com/embed/HzLoG_NwoiE?si=QProq99YzkwKGT92",
+        channelLink: "https://www.youtube.com/@Skarrow9",
+        name: "Skarrow9",
+      },
+    ],
+    encounterMaps: [
+      {
+        name: "Cataclysm (First Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFirstEncounter.jpeg",
+      },
+      {
+        name: "Scission (Second Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresSecondEncounter.jpeg",
+      },
+      {
+        name: "Macrocosm (Third Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresThirdEncounter.jpeg",
+      },
+      {
+        name: "Nazarec (Fourth Encounter)",
+        encounterMap:
+          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFourthEncounter.jpeg",
+      },
+    ],
+    encounterMapCredit: [
+      {
+        name: "u/pryanie",
+        source:
+          "https://www.reddit.com/r/DestinyTheGame/comments/11twndp/root_of_nightmares_high_quality_maps/",
+        maps: "the encounter maps",
+      },
+    ],
+  },
 ];
