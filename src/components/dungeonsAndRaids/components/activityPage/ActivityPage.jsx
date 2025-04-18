@@ -32,7 +32,7 @@ const ActivityPage = () => {
   return (
     <>
       {/* Display information of activity through different components for cleaner code */}
-      <div className="pt-3">
+      <div className=" d-flex justify-content-center">
         <div className="row">
           <div className="col-2">
             <ActivityScrollSpy activity={activity} />

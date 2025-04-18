@@ -547,33 +547,66 @@ export const raids = [
     ],
     encounterMaps: [
       {
-        name: "Cataclysm (First Encounter)",
+        name: "Substratum (First Encounter)",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFirstEncounter.jpeg",
+          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeFirstEncounter.jpg",
       },
       {
-        name: "Scission (Second Encounter)",
+        name: "Dissipation (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresSecondEncounter.jpeg",
+          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeSecondEncounter.jpg",
       },
       {
-        name: "Macrocosm (Third Encounter)",
+        name: "Repository (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresThirdEncounter.jpeg",
+          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeThirdEncounter.jpg",
       },
       {
-        name: "Nazarec (Fourth Encounter)",
+        name: "Verity Shape Reference Guide",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFourthEncounter.jpeg",
+          "/assets/images/raids/salvationsEdge/SalvationsEdgeVerityShapeGuide.png",
+      },
+      {
+        name: "The Witness (Fifth Encounter)",
+        encounterMap:
+          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeFifthEncounter.jpg",
       },
     ],
+    // Maybe for a later update
+    // verity: [
+    //   {
+    //     encounterMap:
+    //       "/assets/images/raids/salvationsEdge/verity/fastMethod/SalvationsEdgeNoDouble.png",
+    //   },
+    //   {
+    //     encounterMap:
+    //       "/assets/images/raids/salvationsEdge/verity/fastMethod/SalvationsEdgeOneDouble.png",
+    //   },
+    //   {
+    //     encounterMap:
+    //       "/assets/images/raids/salvationsEdge/verity/fastMethod/SalvationsEdgeAllDoubles.png",
+    //   },
+    // ],
     encounterMapCredit: [
       {
-        name: "u/pryanie",
+        name: "u/Working-Loss6230",
         source:
-          "https://www.reddit.com/r/DestinyTheGame/comments/11twndp/root_of_nightmares_high_quality_maps/",
-        maps: "the encounter maps",
+          "https://www.reddit.com/r/raidsecrets/comments/1dnz91q/salvations_edge_map/?chainedPosts=t3_1e6kyjy",
+        maps: "the encounter 1-3, and 5 maps",
       },
+      {
+        name: "u/Nectali",
+        source:
+          "https://www.reddit.com/r/destiny2/comments/1deahpk/salvations_edge_verity_shape_guide_reference/",
+        maps: "the verity shape reference guide",
+      },
+      // Credit for fast method infographics for possible later update to the website
+      // {
+      //   name: "u/No_Sugar4490",
+      //   source:
+      //     "https://www.reddit.com/r/destiny2/comments/1efqnsg/updated_easier_to_follow_optimised_verity/",
+      //   maps: "the verity fast method guide",
+      // },
     ],
   },
 ];
