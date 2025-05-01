@@ -7,7 +7,7 @@ export const raids = [
   {
     name: "Vault of Glass",
     desc: "Beneath Venus, evil stirs.",
-    img: "/assets/images/raids/raidPreviews/VaultOfGlass.jpg",
+    img: "../assets/images/raids/raidPreviews/VaultOfGlass.jpg",
     src: "https://www.destinypedia.com/Vault_of_Glass_(raid)",
     link: "Vault_Of_Glass",
     tutorial: [
@@ -21,32 +21,32 @@ export const raids = [
       {
         name: "Confluxes (First Encounter)",
         encounterMap:
-          "/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFirstEncounter.png",
+          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFirstEncounter.png",
       },
       {
         name: "Oracles (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassSecondEncounter.png",
+          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassSecondEncounter.png",
       },
       {
         name: "Templar (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassThirdEncounter.png",
+          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassThirdEncounter.png",
       },
       {
         name: "Gorgon's Maze",
         encounterMap:
-          "/assets/images/raids/vaultOfGlass/VaultOfGlassGorgonMaze.png",
+          "../../assets/images/raids/vaultOfGlass/VaultOfGlassGorgonMaze.png",
       },
       {
         name: "Gatekeeper (4th Encounter)",
         encounterMap:
-          "/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFourthEncounter.png",
+          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFourthEncounter.png",
       },
       {
         name: "Atheon (5th Encounter)",
         encounterMap:
-          "/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFifthEncounter.png",
+          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFifthEncounter.png",
       },
     ],
     encounterMapCredit: [
@@ -68,7 +68,7 @@ export const raids = [
   {
     name: "Crota's End",
     desc: "He waits in the dark below.",
-    img: "/assets/images/raids/raidPreviews/CrotasEnd.jpg",
+    img: "../assets/images/raids/raidPreviews/CrotasEnd.jpg",
     src: "https://www.destinypedia.com/Crota%27s_End",
     link: "Crotas_End",
     tutorial: [
@@ -82,22 +82,22 @@ export const raids = [
       {
         name: "The Abyss (First Encounter)",
         encounterMap:
-          "/assets/images/raids/crotasEnd/encounterMaps/CrotasEndFirstEncounter.jpg",
+          "../../assets/images/raids/crotasEnd/encounterMaps/CrotasEndFirstEncounter.jpg",
       },
       {
         name: "Oversoul Throne Bridge (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/crotasEnd/encounterMaps/CrotasEndSecondEncounter.jpg",
+          "../../assets/images/raids/crotasEnd/encounterMaps/CrotasEndSecondEncounter.jpg",
       },
       {
         name: "Ir Yut (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/crotasEnd/encounterMaps/CrotasEndThirdEncounter.jpg",
+          "../../assets/images/raids/crotasEnd/encounterMaps/CrotasEndThirdEncounter.jpg",
       },
       {
         name: "Crota (Fourth Encounter)",
         encounterMap:
-          "/assets/images/raids/crotasEnd/encounterMaps/CrotasEndFourthEncounter.jpg",
+          "../../assets/images/raids/crotasEnd/encounterMaps/CrotasEndFourthEncounter.jpg",
       },
     ],
     encounterMapCredit: [
@@ -134,7 +134,7 @@ export const raids = [
   {
     name: "King's Fall",
     desc: "Long Live the King.",
-    img: "/assets/images/raids/raidPreviews/KingsFall.jpg",
+    img: "../assets/images/raids/raidPreviews/KingsFall.jpg",
     src: "https://www.destinypedia.com/King%27s_Fall",
     link: "Kings_Fall",
     tutorial: [
@@ -148,31 +148,31 @@ export const raids = [
       {
         name: "Totems (First Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallFirstEncounter.png",
+          "../../assets/images/raids/kingsfall/encounterMaps/KingsFallFirstEncounter.png",
       },
       {
         name: "Warpriest (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallSecondEncounter.png",
+          "../../assets/images/raids/kingsfall/encounterMaps/KingsFallSecondEncounter.png",
       },
       {
         name: "Golgoroth's Cellar",
-        encounterMap: "/assets/images/raids/kingsfall/KingsFallCellar.png",
+        encounterMap: "../../assets/images/raids/kingsfall/KingsFallCellar.png",
       },
       {
         name: "Golgoroth (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallThirdEncounter.jpg",
+          "../../assets/images/raids/kingsfall/encounterMaps/KingsFallThirdEncounter.jpg",
       },
       {
         name: "Daughter's (Fourth Encounter)",
         encounterMap:
-          "/assets/images/raids/kingsfall/encounterMaps/KingsFallFourthEncounter.png",
+          "../../assets/images/raids/kingsfall/encounterMaps/KingsFallFourthEncounter.png",
       },
       {
         name: "Red Border Chest Visual Guide",
         encounterMap:
-          "/assets/images/raids/kingsfall/KingsFallRedBorderChest.png",
+          "../../assets/images/raids/kingsfall/KingsFallRedBorderChest.png",
       },
     ],
     encounterMapCredit: [
@@ -215,7 +215,7 @@ export const raids = [
   {
     name: "Last Wish",
     desc: "The opportunity of a lifetime",
-    img: "/assets/images/raids/raidPreviews/LastWish.jpg",
+    img: "../assets/images/raids/raidPreviews/LastWish.jpg",
     src: "https://www.destinypedia.com/Last_Wish",
     link: "Last_Wish",
     tutorial: [
@@ -229,40 +229,42 @@ export const raids = [
       {
         name: "Kalli (First Encounter)",
         encounterMap:
-          "/assets/images/raids/lastWish/encounterMaps/LastWishFirstEncounter.png",
+          "../../assets/images/raids/lastWish/encounterMaps/LastWishFirstEncounter.png",
       },
       {
         name: "Shuro Chi (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/lastWish/encounterMaps/LastWishSecondEncounter.png",
+          "../../assets/images/raids/lastWish/encounterMaps/LastWishSecondEncounter.png",
       },
       {
         name: "Morgeth (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/lastWish/encounterMaps/LastWishThirdEncounter.png",
+          "../../assets/images/raids/lastWish/encounterMaps/LastWishThirdEncounter.png",
       },
       {
         name: "The Vault (Fourth Encounter)",
         encounterMap:
-          "/assets/images/raids/lastWish/encounterMaps/LastWishFourthEncounter.png",
+          "../../assets/images/raids/lastWish/encounterMaps/LastWishFourthEncounter.png",
       },
       {
         name: "Riven (Fifth Encounter)",
         encounterMap:
-          "/assets/images/raids/lastWish/encounterMaps/LastWishFifthEncounter.png",
+          "../../assets/images/raids/lastWish/encounterMaps/LastWishFifthEncounter.png",
       },
       {
         name: "Riven Eye Chart",
-        encounterMap: "/assets/images/raids/lastWish/LastWishRivenEyeChart.png",
+        encounterMap:
+          "../../assets/images/raids/lastWish/LastWishRivenEyeChart.png",
       },
       {
         name: "Riven Symbol Map",
         encounterMap:
-          "/assets/images/raids/lastWish/LastWishRivenSymbolMap.png",
+          "../../assets/images/raids/lastWish/LastWishRivenSymbolMap.png",
       },
       {
         name: "Queen's Walk",
-        encounterMap: "/assets/images/raids/lastWish/LastWishQueensWalk.png",
+        encounterMap:
+          "../../assets/images/raids/lastWish/LastWishQueensWalk.png",
       },
     ],
     encounterMapCredit: [
@@ -280,7 +282,7 @@ export const raids = [
   {
     name: "Garden of Salvation",
     desc: "The Garden calls out to you.",
-    img: "/assets/images/raids/raidPreviews/GardenOfSalvation.jpg",
+    img: "../assets/images/raids/raidPreviews/GardenOfSalvation.jpg",
     src: "https://www.destinypedia.com/Garden_of_Salvation",
     link: "Garden_Of_Salvation",
     tutorial: [
@@ -307,27 +309,27 @@ export const raids = [
       {
         name: "Evade the Consecrated Mind (First Encounter)",
         encounterMap:
-          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationFirstEncounter.png",
+          "../../assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationFirstEncounter.png",
       },
       {
         name: "Summon the Consecrated Mind (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationSecondEncounter.png",
+          "../../assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationSecondEncounter.png",
       },
       {
         name: "Consecrated Mind (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationThirdEncounter.png",
+          "../../assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationThirdEncounter.png",
       },
       {
         name: "Consecrated Mind Eye Chart",
         encounterMap:
-          "/assets/images/raids/gardenOfSalvation/GardenOfSalvationEyeChart.png",
+          "../../assets/images/raids/gardenOfSalvation/GardenOfSalvationEyeChart.png",
       },
       {
         name: "Sanctified Mind (Fourth Encounter)",
         encounterMap:
-          "/assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationFourthEncounter.png",
+          "../../assets/images/raids/gardenOfSalvation/encounterMaps/GardenOfSalvationFourthEncounter.png",
       },
     ],
     encounterMapCredit: [
@@ -342,7 +344,7 @@ export const raids = [
   {
     name: "Deep Stone Crypt",
     desc: "The chains of legacy must be broken.",
-    img: "/assets/images/raids/raidPreviews/DeepStoneCrypt.jpg",
+    img: "../assets/images/raids/raidPreviews/DeepStoneCrypt.jpg",
     src: "https://www.destinypedia.com/Deep_Stone_Crypt_(raid)",
     link: "Deep_Stone_Crypt",
     tutorial: [
@@ -363,7 +365,7 @@ export const raids = [
       {
         name: "Crypt Security (First Encounter)",
         encounterMap:
-          "/assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptFirstEncounter.png",
+          "../../assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptFirstEncounter.png",
       },
       // {
       //   name: "Atraks-1 (Second Encounter)",
@@ -373,7 +375,7 @@ export const raids = [
       {
         name: "Rapture (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptThirdEncounter.png",
+          "../../assets/images/raids/deepStoneCrypt/encounterMaps/DeepStoneCryptThirdEncounter.png",
       },
       // {
       //   name: "Taniks (Fourth Encounter)",
@@ -393,7 +395,7 @@ export const raids = [
   {
     name: "Vow of the Disciple",
     desc: "The disciple beckons.",
-    img: "/assets/images/raids/raidPreviews/VowOfTheDisciple.jpg",
+    img: "../assets/images/raids/raidPreviews/VowOfTheDisciple.jpg",
     src: "https://www.destinypedia.com/Vow_of_the_Disciple",
     link: "Vow_Of_The_Disciple",
     tutorial: [
@@ -414,32 +416,32 @@ export const raids = [
       {
         name: "Symbols",
         encounterMap:
-          "/assets/images/raids/vowOfTheDisciple/VowOfTheDiscipleSymbols.png",
+          "../../assets/images/raids/vowOfTheDisciple/VowOfTheDiscipleSymbols.png",
       },
       {
         name: "Red Border Visual Guide",
         encounterMap:
-          "/assets/images/raids/vowOfTheDisciple/VowOfTheDiscipleRedBorder.jpg",
+          "../../assets/images/raids/vowOfTheDisciple/VowOfTheDiscipleRedBorder.jpg",
       },
       {
         name: "Acquisition (First Encounter)",
         encounterMap:
-          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleFirstEncounter.jpg",
+          "../../assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleFirstEncounter.jpg",
       },
       {
         name: "Caretaker (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleSecondEncounter.jpg",
+          "../../assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleSecondEncounter.jpg",
       },
       {
         name: "Exhibition (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleThirdEncounter.jpeg",
+          "../../assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleThirdEncounter.jpeg",
       },
       {
         name: "Rhulk (Fourth Encounter)",
         encounterMap:
-          "/assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleFourthEncounter.png",
+          "../../assets/images/raids/vowOfTheDisciple/encounterMaps/VowOfTheDiscipleFourthEncounter.png",
       },
     ],
     encounterMapCredit: [
@@ -477,7 +479,7 @@ export const raids = [
   {
     name: "Root of Nightmares",
     desc: "A sinister threat has taken root.",
-    img: "/assets/images/raids/raidPreviews/RootOfNightmares.jpg",
+    img: "../assets/images/raids/raidPreviews/RootOfNightmares.jpg",
     src: "https://www.destinypedia.com/Root_of_Nightmares",
     link: "Root_Of_Nightmares",
     tutorial: [
@@ -498,22 +500,22 @@ export const raids = [
       {
         name: "Cataclysm (First Encounter)",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFirstEncounter.jpeg",
+          "../../assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFirstEncounter.jpeg",
       },
       {
         name: "Scission (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresSecondEncounter.jpeg",
+          "../../assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresSecondEncounter.jpeg",
       },
       {
         name: "Macrocosm (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresThirdEncounter.jpeg",
+          "../../assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresThirdEncounter.jpeg",
       },
       {
         name: "Nazarec (Fourth Encounter)",
         encounterMap:
-          "/assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFourthEncounter.jpeg",
+          "../../assets/images/raids/rootOfNightmares/encounterMaps/RootOfNightmaresFourthEncounter.jpeg",
       },
     ],
     encounterMapCredit: [
@@ -528,7 +530,7 @@ export const raids = [
   {
     name: "Salvation's Edge",
     desc: "Free the Light",
-    img: "/assets/images/raids/raidPreviews/SalvationsEdge.png",
+    img: "../assets/images/raids/raidPreviews/SalvationsEdge.png",
     src: "https://www.destinypedia.com/Salvation%27s_Edge",
     link: "Salvations_Edge",
     tutorial: [
@@ -549,27 +551,27 @@ export const raids = [
       {
         name: "Substratum (First Encounter)",
         encounterMap:
-          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeFirstEncounter.jpg",
+          "../../assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeFirstEncounter.jpg",
       },
       {
         name: "Dissipation (Second Encounter)",
         encounterMap:
-          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeSecondEncounter.jpg",
+          "../../assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeSecondEncounter.jpg",
       },
       {
         name: "Repository (Third Encounter)",
         encounterMap:
-          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeThirdEncounter.jpg",
+          "../../assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeThirdEncounter.jpg",
       },
       {
         name: "Verity Shape Reference Guide",
         encounterMap:
-          "/assets/images/raids/salvationsEdge/SalvationsEdgeVerityShapeGuide.png",
+          "../../assets/images/raids/salvationsEdge/SalvationsEdgeVerityShapeGuide.png",
       },
       {
         name: "The Witness (Fifth Encounter)",
         encounterMap:
-          "/assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeFifthEncounter.jpg",
+          "../../assets/images/raids/salvationsEdge/encounterMaps/SalvationsEdgeFifthEncounter.jpg",
       },
     ],
     // Maybe for a later update
