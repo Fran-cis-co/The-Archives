@@ -2,7 +2,7 @@ export const dungeons = [
   {
     name: "Shattered Throne",
     desc: "Strike back at the curse that plagues the Dreaming city.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/ShatteredThrone.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/ShatteredThrone.jpg",
     src: "https://www.destinypedia.com/The_Shattered_Throne",
     link: "Shattered_Throne",
     tutorial: [
@@ -16,22 +16,22 @@ export const dungeons = [
       {
         name: "Erebus Labyrinth",
         encounterMap:
-          "../../assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneFirstEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneFirstEncounter.jpg",
       },
       {
         name: "The Descent",
         encounterMap:
-          "../../assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneSecondEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneSecondEncounter.jpg",
       },
       {
         name: "Vorgeth & Sjur Eido",
         encounterMap:
-          "../../assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneThirdEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneThirdEncounter.jpg",
       },
       {
         name: "Dul Incaru & The Spire",
         encounterMap:
-          "../../assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneFourthEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/shatteredThrone/encounterMaps/ShatteredThroneFourthEncounter.jpg",
       },
     ],
     encounterMapCredit: [
@@ -60,7 +60,7 @@ export const dungeons = [
       {
         name: "Dungeon Map",
         encounterMap:
-          "../../assets/images/dungeons/pitOfHeresy/encounterMaps/PitOfHeresyMap.png",
+          "/The-Archives/assets/images/dungeons/pitOfHeresy/encounterMaps/PitOfHeresyMap.png",
       },
     ],
     encounterMapCredit: [
@@ -89,7 +89,7 @@ export const dungeons = [
       {
         name: "Giant Traversal Section",
         encounterMap:
-          "../../assets/images/dungeons/prophecy/encounterMaps/ProphecyTraversalSection.jpg",
+          "/The-Archives/assets/images/dungeons/prophecy/encounterMaps/ProphecyTraversalSection.jpg",
       },
     ],
     encounterMapCredit: [
@@ -134,17 +134,17 @@ export const dungeons = [
       {
         name: "Encounter One",
         encounterMap:
-          "../../assets/images/dungeons/duality/encounterMaps/DualityEncounterOne.png",
+          "/The-Archives/assets/images/dungeons/duality/encounterMaps/DualityEncounterOne.png",
       },
       {
         name: "Encounter Two",
         encounterMap:
-          "../../assets/images/dungeons/duality/encounterMaps/DualityEncounterTwo.png",
+          "/The-Archives/assets/images/dungeons/duality/encounterMaps/DualityEncounterTwo.png",
       },
       {
         name: "Encounter Three",
         encounterMap:
-          "../../assets/images/dungeons/duality/encounterMaps/DualityEncounterThree.png",
+          "/The-Archives/assets/images/dungeons/duality/encounterMaps/DualityEncounterThree.png",
       },
     ],
     encounterMapCredit: [
@@ -173,17 +173,17 @@ export const dungeons = [
       {
         name: "Entrance Encounter Wiring",
         encounterMap:
-          "../../assets/images/dungeons/spireOfTheWatcher/encounterMaps/SpireOfTheWatcherEntranceEncounter.png",
+          "/The-Archives/assets/images/dungeons/spireOfTheWatcher/encounterMaps/SpireOfTheWatcherEntranceEncounter.png",
       },
       {
         name: "First Boss Wiring",
         encounterMap:
-          "../../assets/images/dungeons/spireOfTheWatcher/encounterMaps/SpireOfTheWatcherFirstBoss.png",
+          "/The-Archives/assets/images/dungeons/spireOfTheWatcher/encounterMaps/SpireOfTheWatcherFirstBoss.png",
       },
       {
         name: "Second Boss Wiring",
         encounterMap:
-          "../../assets/images/dungeons/spireOfTheWatcher/encounterMaps/SpireOfTheWatcherSecondBoss.jpeg",
+          "/The-Archives/assets/images/dungeons/spireOfTheWatcher/encounterMaps/SpireOfTheWatcherSecondBoss.jpeg",
       },
     ],
     encounterMapCredit: [
@@ -224,17 +224,17 @@ export const dungeons = [
       {
         name: "The Ritual (First Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/ghostsOfTheDeep/encounterMaps/GhostsOfTheDeepFirstEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/ghostsOfTheDeep/encounterMaps/GhostsOfTheDeepFirstEncounter.jpg",
       },
       {
         name: "Ecthar (Second Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/ghostsOfTheDeep/encounterMaps/GhostsOfTheDeepSecondEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/ghostsOfTheDeep/encounterMaps/GhostsOfTheDeepSecondEncounter.jpg",
       },
       {
         name: "Simmumah (Third Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/ghostsOfTheDeep/encounterMaps/GhostsOfTheDeepThirdEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/ghostsOfTheDeep/encounterMaps/GhostsOfTheDeepThirdEncounter.jpg",
       },
     ],
     encounterMapCredit: [
@@ -263,22 +263,22 @@ export const dungeons = [
       {
         name: "Rathil (First Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinFirstEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinFirstEncounter.jpg",
       },
       {
         name: "Prison Puzzle",
         encounterMap:
-          "../../assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinPrisonPuzzle.jpg",
+          "/The-Archives/assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinPrisonPuzzle.jpg",
       },
       {
         name: "Locus of Wailing Grief (Second Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinSecondEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinSecondEncounter.jpg",
       },
       {
         name: "Hefnd's Vengeance (Third Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinThirdEncounter.jpg",
+          "/The-Archives/assets/images/dungeons/warlordsRuin/encounterMaps/WarlordsRuinThirdEncounter.jpg",
       },
     ],
     encounterMapCredit: [
@@ -307,7 +307,7 @@ export const dungeons = [
       {
         name: "Loot Codes",
         encounterMap:
-          "../../assets/images/dungeons/vespersHost/VespersHostLootCodes.png",
+          "/The-Archives/assets/images/dungeons/vespersHost/VespersHostLootCodes.png",
       },
     ],
     encounterMapCredit: [
@@ -336,22 +336,22 @@ export const dungeons = [
       {
         name: "Lenses (First Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/sunderedDoctrine/encounterMaps/SunderedDoctrineFirstEncounter.png",
+          "/The-Archives/assets/images/dungeons/sunderedDoctrine/encounterMaps/SunderedDoctrineFirstEncounter.png",
       },
       {
         name: "Zoetic Lockset (Second Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/sunderedDoctrine/encounterMaps/SunderedDoctrineSecondEncounter.png",
+          "/The-Archives/assets/images/dungeons/sunderedDoctrine/encounterMaps/SunderedDoctrineSecondEncounter.png",
       },
       {
         name: "Kerrev (Third Encounter)",
         encounterMap:
-          "../../assets/images/dungeons/sunderedDoctrine/encounterMaps/SunderedDoctrineThirdEncounter.png",
+          "/The-Archives/assets/images/dungeons/sunderedDoctrine/encounterMaps/SunderedDoctrineThirdEncounter.png",
       },
       {
         name: "Truths Reference",
         encounterMap:
-          "../../assets/images/dungeons/sunderedDoctrine/SunderedDoctrineTruths.png",
+          "/The-Archives/assets/images/dungeons/sunderedDoctrine/SunderedDoctrineTruths.png",
       },
     ],
     encounterMapCredit: [
