@@ -9,7 +9,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg foreground-color">
         <div className="container-fluid">
           <a className="navbar-brand">
-            <Link className="link" to="/">
+            <Link className="link" to="/The-Archives">
               The Archives
             </Link>
           </a>

@@ -24,7 +24,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/The-Archives" element={<HomePage />} />
           {/* Route which will lead users to a single page which will display something different depending on what they chose */}
           <Route
             path="/DungeonAndRaids/:activityName"
