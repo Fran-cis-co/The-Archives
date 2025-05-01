@@ -7,7 +7,7 @@ export const raids = [
   {
     name: "Vault of Glass",
     desc: "Beneath Venus, evil stirs.",
-    img: "../assets/images/raids/raidPreviews/VaultOfGlass.jpg",
+    img: "/The-Archives/assets/images/raids/raidPreviews/VaultOfGlass.jpg",
     src: "https://www.destinypedia.com/Vault_of_Glass_(raid)",
     link: "Vault_Of_Glass",
     tutorial: [
@@ -26,27 +26,27 @@ export const raids = [
       {
         name: "Oracles (Second Encounter)",
         encounterMap:
-          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassSecondEncounter.png",
+          "/The-Archives/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassSecondEncounter.png",
       },
       {
         name: "Templar (Third Encounter)",
         encounterMap:
-          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassThirdEncounter.png",
+          "/The-Archives/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassThirdEncounter.png",
       },
       {
         name: "Gorgon's Maze",
         encounterMap:
-          "../../assets/images/raids/vaultOfGlass/VaultOfGlassGorgonMaze.png",
+          "/The-Archives/assets/images/raids/vaultOfGlass/VaultOfGlassGorgonMaze.png",
       },
       {
         name: "Gatekeeper (4th Encounter)",
         encounterMap:
-          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFourthEncounter.png",
+          "/The-Archives/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFourthEncounter.png",
       },
       {
         name: "Atheon (5th Encounter)",
         encounterMap:
-          "../../assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFifthEncounter.png",
+          "/The-Archives/assets/images/raids/vaultOfGlass/encounterMaps/VaultOfGlassFifthEncounter.png",
       },
     ],
     encounterMapCredit: [
@@ -134,7 +134,7 @@ export const raids = [
   {
     name: "King's Fall",
     desc: "Long Live the King.",
-    img: "../assets/images/raids/raidPreviews/KingsFall.jpg",
+    img: "/The-Archives/assets/images/raids/raidPreviews/KingsFall.jpg",
     src: "https://www.destinypedia.com/King%27s_Fall",
     link: "Kings_Fall",
     tutorial: [
@@ -283,7 +283,7 @@ export const raids = [
   {
     name: "Garden of Salvation",
     desc: "The Garden calls out to you.",
-    img: "../assets/images/raids/raidPreviews/GardenOfSalvation.jpg",
+    img: "/The-Archives/assets/images/raids/raidPreviews/GardenOfSalvation.jpg",
     src: "https://www.destinypedia.com/Garden_of_Salvation",
     link: "Garden_Of_Salvation",
     tutorial: [
@@ -345,7 +345,7 @@ export const raids = [
   {
     name: "Deep Stone Crypt",
     desc: "The chains of legacy must be broken.",
-    img: "../assets/images/raids/raidPreviews/DeepStoneCrypt.jpg",
+    img: "/The-Archives/assets/images/raids/raidPreviews/DeepStoneCrypt.jpg",
     src: "https://www.destinypedia.com/Deep_Stone_Crypt_(raid)",
     link: "Deep_Stone_Crypt",
     tutorial: [
@@ -396,7 +396,7 @@ export const raids = [
   {
     name: "Vow of the Disciple",
     desc: "The disciple beckons.",
-    img: "../assets/images/raids/raidPreviews/VowOfTheDisciple.jpg",
+    img: "/The-Archives/assets/images/raids/raidPreviews/VowOfTheDisciple.jpg",
     src: "https://www.destinypedia.com/Vow_of_the_Disciple",
     link: "Vow_Of_The_Disciple",
     tutorial: [
@@ -480,7 +480,7 @@ export const raids = [
   {
     name: "Root of Nightmares",
     desc: "A sinister threat has taken root.",
-    img: "../assets/images/raids/raidPreviews/RootOfNightmares.jpg",
+    img: "/The-Archives/assets/images/raids/raidPreviews/RootOfNightmares.jpg",
     src: "https://www.destinypedia.com/Root_of_Nightmares",
     link: "Root_Of_Nightmares",
     tutorial: [
@@ -531,7 +531,7 @@ export const raids = [
   {
     name: "Salvation's Edge",
     desc: "Free the Light",
-    img: "../assets/images/raids/raidPreviews/SalvationsEdge.png",
+    img: "/The-Archives/assets/images/raids/raidPreviews/SalvationsEdge.png",
     src: "https://www.destinypedia.com/Salvation%27s_Edge",
     link: "Salvations_Edge",
     tutorial: [

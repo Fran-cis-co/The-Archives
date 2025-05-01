@@ -46,7 +46,7 @@ export const dungeons = [
   {
     name: "Pit of Heresy",
     desc: "Deep beneath Sorrow's Harbor, the Hive keep their darkest secrets.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/PitofHersey.png",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/PitofHersey.png",
     src: "https://www.destinypedia.com/Pit_of_Heresy",
     link: "Pit_of_Heresy",
     tutorial: [
@@ -75,7 +75,7 @@ export const dungeons = [
   {
     name: "Prophecy",
     desc: "Enter the realm of the Nine and ask the question: 'What is the nature of the Darkness?'",
-    img: "../assets/images/dungeons/dungeonPagePreviews/Prophecy.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/Prophecy.jpg",
     src: "https://www.destinypedia.com/Prophecy",
     link: "Prophecy",
     tutorial: [
@@ -104,7 +104,7 @@ export const dungeons = [
   {
     name: "Grasp of Avarice",
     desc: "A cautionary tale for adventureers willing to trade their humanity for riches.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/GraspofAvarice.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/GraspofAvarice.jpg",
     src: "https://www.destinypedia.com/Grasp_of_Avarice",
     link: "Grasp_of_Avarice",
     tutorial: [
@@ -120,7 +120,7 @@ export const dungeons = [
   {
     name: "Duality",
     desc: "Dive into the depths of the exiled emperor's mind in search of dark secrets.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/DualityDun.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/DualityDun.jpg",
     src: "https://www.destinypedia.com/Duality_(dungeon)",
     link: "Duality_Dungeon",
     tutorial: [
@@ -159,7 +159,7 @@ export const dungeons = [
   {
     name: "Spire of the Watcher",
     desc: "Machinations run wild in this dust-ridden ruin. Bring them to heel.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/SpireofTheWatcher.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/SpireofTheWatcher.jpg",
     src: "https://www.destinypedia.com/Spire_of_the_Watcher",
     link: "Spire_of_the_Watcher",
     tutorial: [
@@ -210,7 +210,7 @@ export const dungeons = [
   {
     name: "Ghosts of the Deep",
     desc: "Drown in the deep, or rise from it.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/GhostsOfTheDeep.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/GhostsOfTheDeep.jpg",
     src: "https://www.destinypedia.com/Ghosts_of_the_Deep",
     link: "Ghosts_of_the_Deep",
     tutorial: [
@@ -249,7 +249,7 @@ export const dungeons = [
   {
     name: "Warlord's Ruin",
     desc: "Nesteled deep in the mountains of the EDZ, Scorn lay claim to a Dark age castle containing dangerous relics, and a blighted vengeance festers in the dirt.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/WarlordsRuin.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/WarlordsRuin.jpg",
     src: "https://www.destinypedia.com/Warlord%27s_Ruin",
     link: "Warlords_Ruin",
     tutorial: [
@@ -293,7 +293,7 @@ export const dungeons = [
   {
     name: "Vesper's Host",
     desc: "Defy the algorithm. Cut through its web.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/VespersHost.jpg",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/VespersHost.jpg",
     src: "https://www.destinypedia.com/Vesper%27s_Host",
     link: "Vespers_Host",
     tutorial: [
@@ -322,7 +322,7 @@ export const dungeons = [
   {
     name: "Sundered Doctrine",
     desc: "Power lies in the deepest vault.",
-    img: "../assets/images/dungeons/dungeonPagePreviews/SunderedDoctrine.png",
+    img: "/The-Archives/assets/images/dungeons/dungeonPagePreviews/SunderedDoctrine.png",
     src: "https://www.destinypedia.com/Sundered_Doctrine",
     link: "Sundered_Doctrine",
     tutorial: [
