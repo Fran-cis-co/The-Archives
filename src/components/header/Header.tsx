@@ -1,10 +1,9 @@
 import { Link } from "react-router";
 import { dungeons } from "../../data/Dungeons.js";
 import { raids } from "../../data/Raids";
-import { resources } from "../../data/OtherResources";
 import "../../App.css";
 
-const Header = () => {
+function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg foreground-color">
@@ -39,7 +38,7 @@ const Header = () => {
                   Dungeons
                 </a>
                 <ul className="dropdown-menu">
-                  {dungeons.map((dungeon, index) => {
+                  {dungeons.map((dungeon: any, index: any) => {
                     return (
                       <li key={index}>
                         <a className="dropdown-item">
@@ -66,7 +65,7 @@ const Header = () => {
                   Raids
                 </a>
                 <ul className="dropdown-menu">
-                  {raids.map((raids, index) => {
+                  {raids.map((raids: any, index: any) => {
                     return (
                       <Link
                         className="link"
@@ -100,6 +99,6 @@ const Header = () => {
       </nav>
     </div>
   );
-};
+}
 
 export default Header;

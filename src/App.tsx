@@ -1,11 +1,5 @@
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
-import {
-  createBrowserRouter,
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router";
 
 /* 
   TO-DO:
@@ -14,7 +8,6 @@ import {
   Get more encounter maps for deep stone crypt
 
 */
-
 import HomePage from "./components/homepage/HomePage";
 import UsefulResources from "./components/otherResources/UsefulResources";
 import ContactPage from "./components/contactPage/ContactPage";

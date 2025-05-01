@@ -11,7 +11,7 @@ import { homepageListing } from "../../data/HomePageListing";
     - Work on Dungeon homepage
 */
 
-const HomePage = () => {
+function HomePage() {
   return (
     // Use Grid style layout for easy design
     <div className="container p-2">
@@ -20,6 +20,6 @@ const HomePage = () => {
       <HomePageDisclaimer />
     </div>
   );
-};
+}
 
 export default HomePage;
