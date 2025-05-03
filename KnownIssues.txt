@@ -1,0 +1,1 @@
+- Going back to the homepage won't display the images

@@ -216,7 +216,7 @@ export const raids = [
   {
     name: "Last Wish",
     desc: "The opportunity of a lifetime",
-    img: "/assets/images/raids/raidPreviews/LastWish.jpg",
+    img: "/The-Archives/assets/images/raids/raidPreviews/LastWish.jpg",
     src: "https://www.destinypedia.com/Last_Wish",
     link: "Last_Wish",
     tutorial: [

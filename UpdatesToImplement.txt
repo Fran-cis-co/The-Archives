@@ -1,0 +1,2 @@
+- have maps/images scale relative to a user's screen resolution
+- Implement feature which allows a user to click on an image to expand it for a better resolution

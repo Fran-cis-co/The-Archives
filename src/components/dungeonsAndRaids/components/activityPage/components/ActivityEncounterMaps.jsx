@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const ActivityEncounterMaps = ({ maps, credit }) => {
   return (
@@ -23,11 +25,13 @@ const ActivityEncounterMaps = ({ maps, credit }) => {
           return (
             <div className="pt-3" id={encounter.name}>
               <h2>{encounter.name}</h2>
-              <img
-                className="center pb-3"
-                src={encounter.encounterMap}
-                width={1400}
-              />
+              <Zoom>
+                <img
+                  className="center pb-3"
+                  src={encounter.encounterMap}
+                  width={1400}
+                />
+              </Zoom>
               <br />
               {/* Include a button which allows user to go all the way back to the top of the page */}
               <button type="button" className="btn btn-outline-primary">
